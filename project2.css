@@ -1,0 +1,203 @@
+
+nav {
+  list-style-type: none;
+  padding: 0;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'CenturyGothic';
+  width: 100%;
+  text-decoration: none;
+  position: sticky;
+}
+
+div.sticky {
+  position: sticky;
+  z-index: 1;
+  padding: 5px;
+  top: 0;
+}
+
+p { 
+  border: 0.05em solid #A9A9A9;
+  opacity: 0.8;
+  background-color: black;
+  padding: 0.7%;
+}
+
+span{
+  background-color: black;  
+  display: inline;
+  border: 0.1em solid red;
+  text-align: center;
+  position: relative;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  font-family: Gothic;
+  opacity: 0.85;
+
+
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.color {
+  color: purple;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'CenturyGothic';
+  color: white;
+  background-color: black;  
+  border: 0.05em solid red;
+  font-size: 3em;
+  opacity: 0.85;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'CenturyGothic';
+  color: red;
+  border: 0.05em solid red;
+  background-color: black;
+  opacity: 0.85;
+}
+
+ul { 
+  border: 0.05em solid #A9A9A9;
+  background-color: black;
+  opacity: 0.8;
+  list-style-type: none;
+  margin: 0%;
+  padding: 1%;
+}
+
+body {
+  background: url("media/tysbackground.jpg") no-repeat center center fixed;
+  background-color: #7FF2F4;
+  background-size: cover;
+  color: blue;
+  font-family: 'Oswald', sans-serif;}
+
+img {
+  opacity: 1;
+  width:30vw;
+  height:40vw;
+}
+
+iframe {
+  height: 5%;
+  width: 25%;
+  position: right;
+}
+
+
+.gatheringimg1 {
+  width: 100%;
+  float: left;
+}
+.gatheringimg2 {
+  width: 100%;
+  float: right;
+}
+
+a {
+  border: 0.05em solid #A9A9A9;
+  background-color: black;
+  padding: 0.7%;
+}
+
+.centerimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: 88%;
+  position: relative;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.centertext2 {
+  margin: 0 auto; 
+  display:block; 
+  text-align: center;
+}
+
+.borderimg {
+  border-image: 3%;
+}
+
+.flipcard {
+  background-color: transparent;
+  width: 30vw;
+  height: 40vw;
+  perspective: 1000px;
+}
+
+.flipcard-inner {
+  position: relative;
+  width: 30vw;
+  height: 40vw;
+  transition: transform 1.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcard:hover .flipcard-inner {
+  transform: rotateY(180deg);
+}
+
+.flipcard-front, .flipcard-back {
+  position: absolute;
+  width: 30vw;
+  height: 40vw;
+  -webkit-backface-visibility: hidden;
+}
+
+.flipcard-front {
+  background-color: transparent;
+}
+
+.flipcard-back {
+  transform: rotateY(180deg);
+  width:100%; 
+  height:auto;
+}
+
+.flipcard-backgif {
+  transform: rotateY(180deg);
+  width:100%; 
+  height: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  background-color: red;
+}
+
+a:visited {
+  text-decoration: none;
+  background-color: red;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: blue;
+}
+
+a:active {
+  text-decoration: none;
+  background-color: purple;
+}
